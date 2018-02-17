@@ -1,0 +1,379 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".MostraResultatsActivity" >
+
+        <TextView
+            android:id="@+id/hoso_cogombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hoso de cogombre: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/hoso_mango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hoso de nap: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/hoso_esparrec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hoso d&apos;esparrec: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/hoso_salmo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hoso de salmó: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/hoso_melo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hoso de meló amb pernil: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/hoso_pollo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hoso de tofu: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/hoso_carla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hoso de mermelada: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/hoso_fumat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hoso de salmó fumat: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/hoso_duo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hoso de dos colors: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/hoso_melo_tropic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hoso de meló: "
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/hoso_foie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hoso de foie: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/hoso_ikea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hoso d'Ikea: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/hoso_textures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hoso de textures de formatge: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/maki_classic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Maki classic: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/maki_tropic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Maki tropic: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/maki_california"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Maki california: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/maki_rock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Maki de frankfurt: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/maki_tonyina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Maki de tonyina: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/maki_mediterrani"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Maki de pebrot "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/maki_oli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Maki de feta: "
+            android:textSize="15dp" />
+        
+        <TextView
+            android:id="@+id/maki_codony"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Maki de codony: "
+            android:textSize="15dp" />
+        
+        <TextView
+            android:id="@+id/maki_pastanaga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Maki de pastanaga: "
+            android:textSize="15dp" />
+        
+        <TextView
+            android:id="@+id/maki_mango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Maki de salmó i mango: "
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/maki_tonyina_fresca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Maki de tonyina fresca: "
+            android:textSize="15dp" />
+        
+        <TextView
+            android:id="@+id/huro_salmo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Huromaki de salmó: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/huro_siratcha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Huromaki de siratcha: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/uramaki_salmo_alvocat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Uramaki de salmó i alvocat: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/huro_platan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Uromaki de plàtan: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/huro_curry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Uromaki de curry: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/huro_bacalla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Uromaki de bacallà: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/huro_tartar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Uromaki de tàrtar: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/huro_carbasso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Uromaki de carbassó: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/nigiri_salmo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nigiri de salmó: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/nigiri_izumidai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nigiri d&apos;izumidai: "
+            android:textSize="15dp" />
+        
+        <TextView
+            android:id="@+id/nigiri_llagosti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nigiri de llagosti: "
+            android:textSize="15dp" />
+        
+        <TextView
+            android:id="@+id/nigiri_truita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nigiri de truita: "
+            android:textSize="15dp" />
+        
+        <TextView
+            android:id="@+id/nigiri_kiwi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nigiri de cogombre: "
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/nigiri_gamba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nigiri de gamba: "
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/nigiri_shime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nigiri de shimesaba: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/nigiri_tonyina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nigiri de tonyina: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/nigiri_carbasso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nigiri de carbassó: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/nigiri_unagi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Nigiri d'unagi: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/daus_salmo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Daus de salmó: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/daus_tonyina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Daus de tonyina: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/tartar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Tàrtars: "
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/sashimi_salmo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Sashimis de salmó: "
+            android:textSize="15dp" />
+        
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/C:/Users/Sergi/Documents/AndroidstudioProjects/MainActivity/app/src/main/res/layout/activity_resultats.xml -->

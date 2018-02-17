@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">SushiCalc</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Sushicalc</string>
+    <string name="calcular">Calcular</string>
+
+</resources>

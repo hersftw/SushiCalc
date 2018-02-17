@@ -1,0 +1,582 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Scroll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="494dp" >
+
+        <TextView
+            android:id="@+id/classicV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/classic"
+            android:layout_marginRight="16dp"
+            android:text="Classic:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/californiaV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/california"
+            android:text="California:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/mediterraniVV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/mediterrani"
+            android:text="Mediterrani:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/rockV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/rock"
+            android:text="Rock&apos;n&apos;Roll:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/especialV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/especial"
+            android:text="Especial:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/mixV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/mix"
+            android:text="Mix:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tropicV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tropic"
+            android:text="Tropic:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+        
+        <TextView
+            android:id="@+id/nouV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/nou"
+            android:text="Green:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/rollboxV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/rollbox"
+            android:text="Rollbox:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+        
+        <TextView
+            android:id="@+id/sushirollV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/sushiroll"
+            android:text="Sushiroll:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+        
+        <TextView
+            android:id="@+id/makirollV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/makiroll"
+            android:text="Maki:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+        
+        <TextView
+            android:id="@+id/duorollV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/duoroll"
+            android:text="Duo:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+        
+        <TextView
+            android:id="@+id/atlanticV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/atlantic"
+            android:text="Atlantic:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/gourmetV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/gourmet"
+            android:text="Gourmet:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/blauV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/blau"
+            android:text="Blau:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tramuntanaV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tramuntana"
+            android:text="Tramuntana:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/duoSibaritaV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/duoSibarita"
+            android:text="Duo Sibarita:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/festiuV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/festiu"
+            android:text="Festiu:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tastV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tast"
+            android:text="Tast:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/cremosV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/cremos"
+            android:text="Cremós:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/garbiV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/garbi"
+            android:text="Garbí:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/duoFestiuV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/duoFestiu"
+            android:text="Duo Festiu:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/duoGourmetV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/duoGourmet"
+            android:text="Duo Gourmet:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/duoVegaV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/duoVega"
+            android:text="Duo Vegà:"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="15dp"
+            tools:ignore="HardcodedText" />
+
+        <!-- EDITS -->
+
+        <EditText
+            android:id="@+id/classic"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true">
+
+            <requestFocus />
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/california"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/classic"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/mediterrani"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/california"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/rock"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/mediterrani"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/especial"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/rock"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/mix"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/especial"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/tropic"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/mix"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+        
+        <EditText
+            android:id="@+id/nou"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tropic"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+        
+        <EditText
+            android:id="@+id/sushiroll"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/nou"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+        
+        <EditText
+            android:id="@+id/makiroll"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/sushiroll"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+        
+        <EditText
+            android:id="@+id/duoroll"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/makiroll"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+        
+        <EditText
+            android:id="@+id/atlantic"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/duoroll"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/rollbox"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/atlantic"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/gourmet"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/rollbox"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+        <EditText
+            android:id="@+id/blau"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/gourmet"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/tramuntana"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/blau"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/duoSibarita"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tramuntana"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/festiu"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/duoSibarita"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/tast"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/festiu"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/cremos"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tast"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/garbi"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/cremos"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/duoFestiu"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/garbi"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/duoGourmet"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/duoFestiu"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <EditText
+            android:id="@+id/duoVega"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/duoGourmet"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="15sp"
+            android:text="0"
+            android:selectAllOnFocus="true"/>
+
+        <Button
+            android:id="@+id/calcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:onClick="mostraResultats"
+            android:text="@string/calcular"
+            android:layout_below="@+id/duoVega"
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+
+</ScrollView><!-- From: file:/C:/Users/Sergi/Documents/AndroidstudioProjects/MainActivity/app/src/main/res/layout/activity_main.xml -->
